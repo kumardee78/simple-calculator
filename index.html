@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-gradient-to-r from-[#10292d] to-[#102955]">
+    <div class="container py-6">
+      <h1 class="text-center text-2xl font-semibold text-red-300 underline underline-offset-8">Calculator</h1>
+      <div class="wrapper flex items-center justify-center">
+        <div class="mt-10 shadow-lg shadow-black px-6 pt-6 pb-2 bg-black text-white rounded-md">
+          <input type="text" class="p-2 my-4 bg-[#10292d] text-end w-full h-[3.5rem] rounded-md text-xl" disabled>
+
+          <div class="my-4">
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">AC</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">Del</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">%</button>
+            <button type="button" class="w-[3rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer">/</button>
+          </div>
+          <div class="my-4">
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">7</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">8</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">9</button>
+            <button type="button" class="w-[3rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer">+</button>
+          </div>
+          <div class="my-4">
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">4</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">5</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">6</button>
+            <button type="button" class="w-[3rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer">-</button>
+          </div>
+          <div class="my-4">
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">1</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">2</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">3</button>
+            <button type="button" class="w-[3rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer">*</button>
+          </div>
+          <div class="my-4">
+            <button type="button" class="w-[7rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">0</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer mr-2">.</button>
+            <button type="button" class="w-[3.25rem] h-[3rem] text-xl rounded-md text-yellow-600 shadow-gray-600 shadow cursor-pointer" id="equalBtn">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
